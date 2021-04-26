@@ -1,0 +1,42 @@
+cat hash.pdf personal.txt | md5sum >> hash.txt
+cat hash.pdf personal_.txt | md5sum >> hash.txt
+d954c352c78bbd258cb2121c750d9211
+d842f48f119cb53a9d13dbbe6336bc3d
+Liczba bitów różniąca wyniki: 57 tj. 45% z 128
+
+cat hash.pdf personal.txt | sha1sum >> hash.txt
+cat hash.pdf personal_.txt | sha1sum >> hash.txt
+12c24de0b21f5ec2f91ce06513a29fa133ce3626
+c337abbaeedf2236e9b258eb869b2ea3261c85ac
+Liczba bitów różniąca wyniki: 77 tj. 48% z 160
+
+cat hash.pdf personal.txt | sha224sum >> hash.txt
+cat hash.pdf personal_.txt | sha224sum >> hash.txt
+7312c7440463002d9cf70f31e7d3d5734e54ef22e76b3dd91fcdae4b
+ea82c636fd238195457a532f0288c1737a320af7056423d49b6994de
+Liczba bitów różniąca wyniki: 98 tj. 44% z 224
+
+cat hash.pdf personal.txt | sha256sum >> hash.txt
+cat hash.pdf personal_.txt | sha256sum >> hash.txt
+7d745fee0bdbada83bdc019ffc3cf95143f6b17813750d70d4b021f2886f75c0
+d6d795c6733e8129c5d11dce692fa40ff1455acffdd2633ef3b68e6708ded22e
+Liczba bitów różniąca wyniki: 135 tj. 53% z 256
+
+cat hash.pdf personal.txt | sha384sum >> hash.txt
+cat hash.pdf personal_.txt | sha384sum >> hash.txt
+e9db3c99064c959f6d2497d1b30cde607c5d10eec800104bc8e0ee1fa48cc69b0bbdf6f501634d797c4065113bff5df1
+97292fafab0c2dc554bb54b2dce26bfe31f66b0139faf3878109130f956950dece0790444190f47df056c16d18a21a7a
+Liczba bitów różniąca wyniki: 205 tj. 53% z 384
+
+cat hash.pdf personal.txt | sha512sum >> hash.txt
+cat hash.pdf personal_.txt | sha512sum >> hash.txt
+ca851a63b252b7797186cb81bbfa18303d43e18b5e6c16a959936fa09a1e1785a09aed3e2b1a224c2a7520f474205e9441035c6e941bfbd0e2235646ba4e7cae
+02c6196a26886b334e90063233169d5ac4cb6f1594fa55d5ed6d990a589b238e6a95ef82c6f286768fc6278e60e9637c5c8a15a9f18ab41a6aa410fb25f4a2b6
+Liczba bitów różniąca wyniki: 253 tj. 49% z 512
+
+cat hash.pdf personal.txt | b2sum >> hash.txt
+cat hash.pdf personal_.txt | b2sum >> hash.txt
+822cba24b17c5068ccd652cacf2e7dc7254c49577c3dfc658ca2b4691b281d04edd48361c249a8e083835ffef660791c9405f9c402eb345838bc04c3a4e74ad4
+4849406ee2d90d3a8282d4c68e1a823790a9f4378dcc4b2fb06f88e49230dc7830982d9f70c8a8cd262133d2c7b8754300e6bf54d104597e472fbf87449beec4
+Liczba bitów różniąca wyniki: 253 tj. 49% z 512
+
